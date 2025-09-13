@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liang Zisheng - Professional Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #e8eaf6, #f5f5f5);
+      color: #333;
+    }
+    header {
+      background-color: #1a237e;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: #1a237e;
+      border-bottom: 2px solid #c5cae9;
+      padding-bottom: 8px;
+      margin-top: 40px;
+    }
+    p, li { line-height: 1.7; margin: 10px 0; }
+    ul { padding-left: 20px; }
+    .section { margin-bottom: 30px; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a237e;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    .highlight { font-weight: 500; color: #3949ab; }
+    .certificate-link {
+      display: inline-block; margin-top: 4px; padding: 6px 12px;
+      background-color: #1a237e; color: white; border-radius: 4px;
+      text-decoration: none; font-size: 0.9rem;
+    }
+    .certificate-link:hover { background-color: #3949ab; }
+  </style>
+</head>
+<body>
+  <header>Liang Zisheng - Professional Portfolio</header>
+
+  <div class="container">
+    <!-- ABOUT -->
+    <div class="section">
+      <h2>About Me</h2>
+      <p><span class="highlight">Phone:</span> +1 6465057555</p>
+      <p><span class="highlight">Email:</span> liang_zisheng@163.com</p>
+      <p><span class="highlight">Address:</span> Room 1506, Building 7, No. 318, Suzhou Road, Luyang District, Hefei, Anhui, 230041, China</p>
+      <p>Graduate student at the University of Pennsylvania (MSSP + Data Analytics, 2025–2026). Previously earned a B.A. in Economic Policy from New York University (NYU). I focus on quantitative finance and policy analysis, including ESG investing research, factor models, and portfolio optimization.</p>
+      <p>Professional experience spans quantitative finance, marketing, manufacturing analytics, and ESG reporting.</p>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>University of Pennsylvania, School of Social Policy & Practice</strong> — Master of Science in Social Policy (MSSP) + Data Analytics (08/2025–12/2026)</p>
+      <ul>
+        <li>Relevant courses: Democratizing Data, Practical Data Science, Applied Linear Modeling, Community Mapping, Practical Machine Learning, MSSP+DA Policy Internship in Data Analytics Seminar, Law & Social Policy: Foundations, Economics for Social Policy, Research & Evaluation Design.</li>
+      </ul>
+      <p><strong>New York University (NYU), College of Arts & Science</strong> — B.A. in Economic Policy (09/2021–06/2025) — GPA: 3.747/4.0</p>
+      <ul>
+        <li>Dean’s List (2022–2024); Honor Scholar Certificate upon graduation</li>
+        <li>Non-degree Marketing course (A), Trine University, 2023–2024 Spring</li>
+        <li>Vice President, NYUCSSA & NYU Arts & Culture Club</li>
+      </ul>
+    </div>
+
+    <!-- ACADEMIC PROJECTS -->
+    <div class="section">
+      <h2>Academic Projects</h2>
+      <ul>
+        <li><strong>ESG Portfolios under Different Market Conditions</strong> — Atlantis Press Conference Proceedings (to be submitted to CPCI, CNKI, Google Scholar). Findings: high-ESG portfolios show greater resilience in bear markets with competitive bull-market returns (06/2024–08/2024).</li>
+        <li><strong>Whirlpool China: Navigating Global Branding in a Creative City</strong> — market segmentation/targeting, customer decision profiles, 4Ps, ethics & CSR; strategic suggestions for brand promotion (01/2024–03/2024).</li>
+      </ul>
+    </div>
+
+    <!-- INTERNSHIP EXPERIENCE -->
+    <div class="section">
+      <h2>Internship Experience</h2>
+
+      <p><strong>CITIC Securities Co., Ltd.</strong> — <em>Marketing Department Intern</em> (07/2025–08/2025)</p>
+      <ul>
+        <li>Analyzed public mutual funds (structure, risk, regulation); supported investor education on ETF mechanisms and risks.</li>
+        <li>Selected STAR 50 ETF for fund roadshow; prepared product materials and presented retail investment rationale.</li>
+        <li>Used translation mode & swap anchoring tools to support cross-border product narratives; coordinated with product/legal/compliance for regulatory-aligned disclosures.</li>
+      </ul>
+
+      <p><strong>China Securities Co., Ltd.</strong> — <em>Quantitative Finance Intern</em> (07/2024–08/2024)</p>
+      <ul>
+        <li>Built quantitative investment models for A-share & CSI 300 using Python/Tushare; designed strategies incl. Bollinger Bands & PEG.</li>
+        <li>Developed optimization methods (Risk Parity, Orthogonalization); ran Monte Carlo stress tests across market scenarios.</li>
+        <li>Stabilized models with Bayesian Optimization & Genetic Algorithms; improved factor-score stock selection using IC/IC-Rank/IC-IR weighting.</li>
+      </ul>
+
+      <p><strong>iFLYTEK Co., Ltd.</strong> — <em>Brand Marketing Centre Intern</em> (06/2023–08/2023)</p>
+      <ul>
+        <li>Market analysis & consumer research with Excel/SPSS; advanced statistical work in R for segmentation & targeting.</li>
+        <li>Supported new-product campaigns that increased brand awareness by ~20%.</li>
+      </ul>
+
+      <p><strong>BOE Technology Group Co., Ltd.</strong> — <em>CIM Intern</em> (06/2022–08/2022)</p>
+      <ul>
+        <li>Identified production bottlenecks and implemented improvements, reducing cycle time by 4.5%; conducted cost-benefit analyses and delivered visual reports.</li>
+      </ul>
+
+      <p><strong>ChangXin Memory Technologies (CXMT)</strong> — <em>Industry-University-Research Collaboration Specialist Assistant</em> (07/2021–08/2021)</p>
+      <ul>
+        <li>Collected policy materials; led social-responsibility assessment used for local public-welfare initiatives.</li>
+        <li>Optimized ESG reporting across CSRD/IFRS S1-S2/GRI using PESG Reporting; managed patent filing materials and contracts.</li>
+      </ul>
+
+      <p><strong>Whirlpool (China)</strong> — <em>Product Development Intern</em> (07/2020–08/2020)</p>
+      <ul>
+        <li>Collected consumer-feedback data; supported product concept development & competitive analysis for differentiation.</li>
+      </ul>
+    </div>
+
+    <!-- CERTIFICATIONS -->
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li><strong>Database Structures and Management with MySQL</strong> — Meta (Mar 2025)<br><a class="certificate-link" href="https://www.coursera.org/account/accomplishments/verify/9B3X1J2M6LTE" target="_blank">View Certificate</a></li>
+        <li><strong>Advanced MySQL Topics</strong> — Meta (Mar 2025)<br><a class="certificate-link" href="https://www.coursera.org/account/accomplishments/verify/P9DI814H9F5A" target="_blank">View Certificate</a></li>
+        <li><strong>American Contract Law I</strong> — Yale Law School (Jan 2025)<br><a class="certificate-link" href="https://www.coursera.org/account/accomplishments/verify/VOCUV2LPCYMV" target="_blank">View Certificate</a></li>
+        <li><strong>Internet Giants: The Law and Economics of Media Platforms</strong> — University of Chicago Law School (Jan 2025)<br><a class="certificate-link" href="https://www.coursera.org/account/accomplishments/verify/S59RX49PFSEO" target="_blank">View Certificate</a></li>
+        <li><strong>Introduction to Intellectual Property</strong> — UPenn Carey Law School (Jan 2025)<br><a class="certificate-link" href="https://www.coursera.org/account/accomplishments/verify/Q1EKLA4CE9JP" target="_blank">View Certificate</a></li>
+        <li><strong>Privacy Law and Data Protection</strong> — UPenn Carey Law School (Apr 2025)</li>
+        <li><strong>AI Infrastructure and Operations Fundamentals</
